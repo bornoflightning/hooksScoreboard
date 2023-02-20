@@ -1,6 +1,11 @@
+import React from 'react';
+import logo from './logo.svg';
+import './App.css';
 
 
-function Header(props) {
+
+
+  function Header(props) {
     return (
         <header>
         <h1>{ props.title } </h1>
@@ -115,8 +120,8 @@ const App = () => {
     
 
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(<App />);
 
 
 //below is the old way of doing thigs
@@ -126,3 +131,6 @@ root.render(<App />);
 //     document.getElementById("root")
 
 // );
+
+
+export default App;
